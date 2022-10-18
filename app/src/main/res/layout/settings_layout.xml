@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Settings"
+    android:background="@drawable/settings_background">
+
+    <TextView
+        android:id="@+id/notused"
+        android:layout_width="170dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/avatar_button_colour"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Music switcher"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/stop_music_button"
+            android:layout_width="190dp"
+            android:layout_height="60dp"
+            android:layout_gravity="top"
+            android:background="@drawable/settings_button"
+            android:text="OFF"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/music_button"
+            android:layout_width="190dp"
+            android:layout_height="60dp"
+            android:layout_gravity="top"
+            android:background="@drawable/settings_button"
+            android:text="ON"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/notused2"
+        android:layout_width="170dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/avatar_button_colour"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="FPS switcher"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/fpsbutton60"
+            android:layout_width="190dp"
+            android:layout_height="60dp"
+            android:layout_gravity="top"
+            android:background="@drawable/settings_button"
+            android:text="60 fps"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/fpsbutton30"
+            android:layout_width="190dp"
+            android:layout_height="60dp"
+            android:layout_gravity="top"
+            android:background="@drawable/settings_button"
+            android:text="30 fps"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/notused3"
+        android:layout_width="170dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/avatar_button_colour"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Sensitivity"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:max="200"
+        android:progress="100"
+        android:background="@drawable/settings_button"
+        android:gravity="center_horizontal|center_vertical"/>
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="190dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="550dp"
+        android:background="@drawable/settings_button"
+        android:text="Back"
+        android:textSize="20sp" />
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.MainMenu"
+    android:background="@drawable/main_menu_background">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="20dp">
+
+        <Button
+            android:id="@+id/play_button"
+            android:layout_width="190dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/menu_button_colour"
+            android:text="Play"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/score_button"
+            android:layout_width="190dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/menu_button_colour"
+            android:text="Scoreboard"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/avatar_button"
+            android:layout_width="190dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/avatar_button_colour"
+            android:text="profile"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/settings_button"
+            android:layout_width="190dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/menu_button_colour"
+            android:text="Settings"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/exit_button"
+            android:layout_width="190dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/menu_button_colour"
+            android:text="Exit"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

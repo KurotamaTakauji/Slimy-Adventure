@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/game_menu_background"
+    tools:context=".ui.GameMenu">
+
+    <Button
+        android:id="@+id/endless_button"
+        android:layout_width="190dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/game_menu_custom_button"
+        android:text="Endless"
+        android:textSize="20sp"
+        />
+
+
+    <Button
+        android:id="@+id/stages1_button"
+        android:layout_width="190dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/game_menu_custom_button"
+        android:text="Stage 1"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/stages2_button"
+        android:layout_width="190dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/game_menu_custom_button"
+        android:text="stage 2"
+        android:textSize="20sp"
+        />
+    <Button
+        android:id="@+id/stages3_button"
+        android:layout_width="190dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/game_menu_custom_button"
+        android:text="stage 3"
+        android:textSize="20sp"
+        />
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="190dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="550dp"
+        android:background="@drawable/game_menu_custom_button"
+        android:text="Back"
+        android:textSize="20sp"
+        />
+
+</RelativeLayout>
